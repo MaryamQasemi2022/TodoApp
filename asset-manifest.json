@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.711496e0.css",
-    "main.js": "/static/js/main.cf265778.js",
-    "index.html": "/index.html",
-    "main.711496e0.css.map": "/static/css/main.711496e0.css.map",
-    "main.cf265778.js.map": "/static/js/main.cf265778.js.map"
+    "main.css": "/MaryamQasemi2022/TodoApp.git/static/css/main.711496e0.css",
+    "main.js": "/MaryamQasemi2022/TodoApp.git/static/js/main.cf265778.js",
+    "index.html": "/MaryamQasemi2022/TodoApp.git/index.html",
+    "main.711496e0.css.map": "/MaryamQasemi2022/TodoApp.git/static/css/main.711496e0.css.map",
+    "main.cf265778.js.map": "/MaryamQasemi2022/TodoApp.git/static/js/main.cf265778.js.map"
   },
   "entrypoints": [
     "static/css/main.711496e0.css",
