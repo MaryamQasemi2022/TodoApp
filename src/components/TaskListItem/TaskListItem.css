@@ -24,14 +24,14 @@ li.TaskListItem input[type='checkbox']:checked ~ input {
 }
 
 li.TaskListItem input[type='text'] {
-  margin-right: auto;
+  flex-grow: 1;
   margin-left: 0.5rem;
   border: none;
   outline: none;
   background: none;
   user-select: none;
 }
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 360px) {
   li.TaskListItem input[type='text'] {
     width: 150px;
   }
