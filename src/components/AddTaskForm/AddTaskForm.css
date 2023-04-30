@@ -1,0 +1,36 @@
+form .container_form {
+  position: relative;
+}
+form .container_form button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #ff6d60;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+.container_form button svg {
+  width: 20px;
+  height: 20px;
+}
+.container_form button:hover {
+  color: #ff6d60;
+  background-color: white;
+  border: 1px solid #ff6d60;
+}

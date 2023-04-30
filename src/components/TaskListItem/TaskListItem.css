@@ -1,0 +1,75 @@
+li.TaskListItem {
+  display: flex;
+  align-items: center;
+  padding: 13px 5px;
+  background-color: #98d8aa;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+li.TaskListItem:nth-child(odd) {
+  background-color: #98d8aa9a;
+}
+li.TaskListItem input[type='checkbox'] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+li.TaskListItem input[type='checkbox']:checked ~ input {
+  text-decoration: line-through;
+}
+
+li.TaskListItem input[type='text'] {
+  margin-right: auto;
+  margin-left: 0.5rem;
+  border: none;
+  outline: none;
+  background: none;
+  user-select: none;
+}
+li.TaskListItem button {
+  cursor: pointer;
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border-color: transparent;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  margin: 0 5px;
+  text-align: center;
+  font-size: 1rem;
+}
+li.TaskListItem button svg {
+  line-height: 1.3;
+  width: 20px;
+  height: 20px;
+}
+li.TaskListItem button.red {
+  color: #ff6d60;
+}
+li.TaskListItem button.red:hover {
+  border: 1px solid #ff6d60;
+}
+li.TaskListItem button.green {
+  color: #395742;
+}
+li.TaskListItem button.green:hover {
+  border: 1px solid #395742;
+}
+li.TaskListItem button.edit.clicked ~ button.ok {
+  display: block;
+}
+li.TaskListItem button.ok {
+  display: none;
+}
+li.TaskListItem button.edit.clicked {
+  display: none;
+}

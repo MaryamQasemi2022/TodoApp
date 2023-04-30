@@ -1,0 +1,30 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb",
+    "plugin:prettier/recommended"
+  ],
+  "overrides": [],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "react/function-component-definition": [
+      2,
+      { "namedComponents": "arrow-function" }
+    ],
+    "no-console": 2,
+    "no-unused-vars": 2,
+    "react/prop-types": 1,
+    "react/no-unknown-property": [2, { "ignore": ["css"] }],
+    "react/jsx-props-no-spreading": 2,
+    "import/no-cycle": 2,
+    "import/no-extraneous-dependencies": 1
+  }
+}
