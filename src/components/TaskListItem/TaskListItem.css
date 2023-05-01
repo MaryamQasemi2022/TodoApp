@@ -31,7 +31,7 @@ li.TaskListItem input[type='text'] {
   background: none;
   user-select: none;
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 380px) {
   li.TaskListItem input[type='text'] {
     width: 150px;
   }
